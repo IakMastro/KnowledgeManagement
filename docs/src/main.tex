@@ -1,0 +1,67 @@
+\documentclass[
+  11pt,
+  singlespacing,
+  liststotoc,
+  toctotoc,
+  headspline
+]{fphw}
+
+\usepackage{alphabeta}
+\usepackage{lmodern}
+
+\usepackage{fontenc}
+\usepackage{xgreek}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+\usepackage[Greek,Latin]{ucharclasses}
+\setTransitionsForGreek{\setlanguage{greek}}{\setlanguage{american}}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine}
+
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\newfontfamily{\greekfont}{CMU Serif}
+\newfontfamily{\greekfontsf}{CMU Sans Serif}
+
+\setmainfont{GFS Didot}
+
+\usepackage[]{unicode-math}
+\setmathfont{Latin Modern Math}
+
+\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{enumerate}
+\usepackage{float}
+
+\usepackage[hidelinks]{hyperref}
+
+\title{Τελική Απαλλακτική Εργασία}
+\author{Ιάκωβος Μαστρογιαννόπουλος - Κωνσταντίνος Καμαρόπουλος}
+\institute{Πανεπιστημιο Δυτικης Αττικης \\ Τμημα Μηχανικων Πληροφορικης και Υπολογιστων}
+\class{Διαχείριση Γνώσης}
+\professor{Αθανάσιος Κιούρτης}
+
+\begin{document}
+\includegraphics[width=25mm]{Figures/Logo}
+\maketitle
+
+\begin{abstract}
+  Αυτή είναι η τελική εργασία για το μάθημα <<Διαχείριση Γνώσης>> των φοιτητών:
+  \begin{itemize}
+      \item Ιάκωβος Μαστρογιαννόπουλος, 713242017102
+      \item Κωνσταντίνος Καμαρόπουλος, 71346830
+  \end{itemize}
+\end{abstract}
+
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+\include{Chapters/Chapter1}
+\end{document}
