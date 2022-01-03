@@ -1,7 +1,4 @@
-import pandas as pd
-import numpy as np
+from dataframe.create_dataframe import create_dataframe
 
-if __name__ == "__main__":
-  movies = pd.read_csv("dataset_top_1000_imdb.csv")
-
-  print(movies)
+if __name__ == '__main__':
+  dataframe = create_dataframe('./dataframe.xml')
